@@ -1,0 +1,3 @@
+# Инструкция для git 
+
+Git it is program for...
