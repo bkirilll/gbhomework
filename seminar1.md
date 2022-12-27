@@ -2,7 +2,7 @@
 
 ![Git emblem](git.jpeg)
 
-Git it is program for...
+Git It is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency.
 
 ## 1) Создание репозитория
 
@@ -102,10 +102,27 @@ Git it is program for...
 
 Чтобы создать новую ветку нужно выполнить команду 
 
-    git branch
+    git branch <branch_name>
 
 ### Перемещение между ветками в git
 
 Для перемещения в git между ветками нужно выполнить команду
 
     git branch <branch_name>
+
+### Удаление веток в git
+
+Чтобы удалить ветку в git нужно выполнить команду
+
+    git branch -d <branch_name>
+
+### Соединение веток в git
+
+Чтобы соединить ветки в git нужно выполнить команду
+
+    git merge <branch_name>
+
+### Конфликт изменений
+
+Иногда при слияние двух веток возникает конфликт изменений. Пользователь должен будет выбрать какие изменения он принимает и разрешить конфликт.
+
