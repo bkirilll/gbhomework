@@ -102,4 +102,10 @@ Git it is program for...
 
 Чтобы создать новую ветку нужно выполнить команду 
 
-    git branch
+    git branch <branch_name>
+
+### Перемещение между ветками
+
+Чтобы переместиться между ветками в git, нужно выполнить команду 
+
+    git checkout <branch_name>
