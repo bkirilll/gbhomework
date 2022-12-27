@@ -108,7 +108,7 @@ Git It is a free and open source distributed version control system designed to 
 
 Для перемещения в git между ветками нужно выполнить команду
 
-    git branch <branch_name>
+    git checkout <branch_name>
 
 ### Удаление веток в git
 
@@ -126,3 +126,6 @@ Git It is a free and open source distributed version control system designed to 
 
 Иногда при слияние двух веток возникает конфликт изменений. Пользователь должен будет выбрать какие изменения он принимает и разрешить конфликт.
 
+### Добавление изображения
+
+Чтобы добавить изображение в git нужно создать отдельный файл .gitognore в котором указать названия всех фотографий добавленных в текст
