@@ -116,3 +116,8 @@ Git it is program for...
 
     git branch -d <branch_name>
 
+### Соединение веток в git
+
+Чтобы соединить ветки в git нужно выполнить команду
+
+    git merge <branch_name>
